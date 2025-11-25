@@ -33,7 +33,7 @@ graph TD
 
 Clone the repository:
 
-git clone [https://github.com/your-username/govcheck-fact-checker.git](https://github.com/your-username/govcheck-fact-checker.git)
+git clone [https://github.com/smuggypusss/LLM-Fact-Checker.git](https://github.com/smuggypusss/LLM-Fact-Checker.git)
 cd govcheck-fact-checker
 
 
@@ -117,6 +117,3 @@ Reason: I added a SequenceMatcher guardrail. If text similarity is >70%, we forc
 
 Reason: Fact-checking is a real-time activity. Waiting 5+ seconds for GPT-4 breaks the user flow. Groq's LPU provides near-instant inference, making the tool feel like a database query rather than a generative AI task.
 
-📜 License
-
-MIT License
